@@ -10,12 +10,12 @@ A simple version of the popular arcade game, where the player controls a platfor
 
 ## Features
 
-- 🎮 Classic Arkanoid gameplay
-- 🏓 Bounce physics
-- 🧱 Destructible blocks
-- 💯 Point system
-- ❤️ Life system (3 lives)
-- 🚀 Increase ball speed when destroying blocks
+- Classic Arkanoid gameplay
+- Bounce physics
+- Destructible blocks
+- Point system
+- Life system (3 lives)
+- Increase ball speed when destroying blocks
 
 ## Controls
 
