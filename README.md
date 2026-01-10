@@ -38,6 +38,5 @@ python main.py
 - Python 3.x
 - Tkinter (usually included in the standard Python package)
 
-## Author
 
 The game is created as an educational project to learn the basics of game development in Python.
