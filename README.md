@@ -1,42 +1,39 @@
-# Arkanoid Game
+## Arkanoid Game / (Python, Tkinter, game physics, arcade)
 
-![images](images/Screenshot.jpg)
+### This is a classic arcade game called Arkanoid, designed to reinforce hands-on Python experience.
 
-Classic Arkanoid game implemented in Python using the Tkinter library.
+![Arkanoid Game](images/Screenshot.jpg)
 
-## Description
+### In this project, the following were implemented:
+- Game loop and event handling system
+- Ball physics with bounce mechanics
+- Keyboard platform control
+- Block destruction system with collision detection
+- Score tracking and scoring
+- Life system: 3 lives per game
+- Dynamic increase in ball speed as blocks are destroyed
+- Game state management: start, game, end of game
 
-A simple version of the popular arcade game, where the player controls a platform, bouncing a ball and destroying blocks. The goal is to destroy all the blocks without letting the ball fall.
+### Start-up instructions
 
-## Features
-
-- Classic Arkanoid gameplay
-- Bounce physics
-- Destructible blocks
-- Point system
-- Life system (3 lives)
-- Increase ball speed when destroying blocks
-
-## Controls
-
-- **A** — move platform left
-- **D** — move platform right
-- **Space** — start a new game
-
-## Installation and launch
-
-1. Make sure you have Python 3.x installed
-2. Download the `main.py` file
-3. Launch the game:
-
-```bash
-python main.py
-```
-
-## Requirements
-
-- Python 3.x
-- Tkinter (usually included in the standard Python package)
-
-
-The game is created as an educational project to learn the basics of game development in Python.
+1. **Clone the repository:**
+    ```bash
+    git clone <repo-url>
+    ```
+    ```bash
+    cd arkanoid-game
+    ```
+    ```bash
+    python -m venv .venv
+    ```
+    ```bash
+    source .venv/bin/activate # On Windows: .venv\Scripts\activate
+    ```
+2. **Run the game:**
+   ```bash
+   python main.py
+   ```
+3. **Controls:**
+   - **A** — move platform left
+   - **D** — move platform right
+   - **Space** — start new game
